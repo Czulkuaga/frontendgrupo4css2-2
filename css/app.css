@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Contenedor principal del ejemplo */
+.container{
+    width: 100%;
+    display: flex;
+}
+
+/* Columna 1 */
+.container .col1{
+    width: 33.33%;
+    height: 30vh;
+    background-color: aqua;
+}
+/* Columna 2 */
+.container .col2{
+    width: 66.67%;
+    height: 30vh;
+    background-color:blanchedalmond;
+}
+
+/* Contenedor 2 | fila 1 */
+
+.container2 .row{
+    display: flex;
+    background-color: brown;
+}
+
+.container2 .row .col3{
+    background-color: blue;
+    width: 33.33%;
+    height: 30vh;
+}
+
+.container2 .row .col4{
+    background-color:blueviolet;
+    width: 33.33%;
+    height: 30vh;
+}
+
+.container2 .row .col5{
+    background-color:brown;
+    width: 33.33%;
+    height: 30vh;
+}
+
+.container2 .row .col6{
+    background-color:burlywood;
+    width: 50%;
+    height: 30vh;
+}
+.container2 .row .col7{
+    background-color:cadetblue;
+    width: 50%;
+    height: 30vh;
+}
